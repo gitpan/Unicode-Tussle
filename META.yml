@@ -16,7 +16,7 @@ name: Unicode-Tussle
 provides:
   Unicode::Tussle:
     file: lib/Unicode/Tussle.pm
-    version: 1.01
+    version: 1.02
 requires:
   Lingua::EN::Syllable: 0
   Lingua::JA::Romanize::Japanese: 0
@@ -28,4 +28,4 @@ requires:
   perl: v5.10.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.01
+version: 1.02
