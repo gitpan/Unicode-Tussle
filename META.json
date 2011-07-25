@@ -40,14 +40,14 @@
    "provides" : {
       "Unicode::Tussle" : {
          "file" : "lib/Unicode/Tussle.pm",
-         "version" : "1.03"
+         "version" : "1.03_01"
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.03"
+   "version" : "1.03_01"
 }
