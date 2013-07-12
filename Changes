@@ -1,4 +1,10 @@
 
+1.03_05 - Thu Jul 11 21:11:54 2013
+	* Change Underscore.pm to ForbidUnderscore.pm. VTI owns the 
+	other namespace for a different reason.
+	* Switch to Makefile.PL
+
+
 1.03_04 - Thu Jun  6 15:19:10 2013
 	* Remove 5.10 features which Perl 5.18 now makes experimental
 	compilation errors.
@@ -17,5 +23,5 @@
 	* Add examples of most programs, from Tom
 
 1.01 - Sat Jul 16 00:32:08 2011
-	* Tom Christiansen's Unicode Scripts So Life is Easier
+	* Tom Christiansen's Unicode Scripts So Life is Easier (TUSSLE)
 	* I just made the distribution

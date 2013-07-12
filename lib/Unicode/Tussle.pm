@@ -1,7 +1,7 @@
 package Unicode::Tussle;
 use vars qw( $VERSION );
 
-$VERSION = '1.03_04';
+$VERSION = '1.03_05';
 
 =encoding utf8
 
@@ -97,7 +97,7 @@ http://users.teilar.gr/~g1951d/
         vowel-sigs - show how to create your own properties; also, regex subroutines
 
     MODULES
-        Underscore.pm - "no Underscore;" forbids unlocalized $_ access
+        ForbidUnderscore.pm - "no Underscore;" forbids unlocalized $_ access
         FixString.pm - tries to sort text items with numbers, including Roman, intelligently,
                        includes support for Unicode Romans, and for Romans written in Latin 
                        script, but requires Roman.pm module for the latter.  Falls back to the UCA.
@@ -114,7 +114,7 @@ http://users.teilar.gr/~g1951d/
 
     Modules:
         FixString.pm            - program & module to do "logical" sorting w/numbers
-        Underscore.pm           - forbid unlocalized $_ with no Underscore
+        ForbidUnderscore.pm     - forbid unlocalized $_ with no Underscore
 
     Libraries:
         unicore/html_alias.pl   - allows for customer charclass names \N{egrave} etc
@@ -1865,7 +1865,7 @@ it.
 
 =head1 COPYRIGHT
 
-Copyright 2011, Tom Christiansen.
+Copyright 2011-2013, Tom Christiansen.
 
 =head1 LICENSE
 
