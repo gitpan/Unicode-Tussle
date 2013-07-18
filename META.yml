@@ -1,31 +1,19 @@
 ---
 abstract: "Tom's Unicode Scripts So Life is Easier"
 author:
-  - 'brian d foy <bdfoy@cpan.org>'
-build_requires:
-  Module::Build: 0
-configure_requires:
-  Module::Build: 0.40
+  - 'Tom Christiansen <tom@perl.com>'
+build_requires: {}
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150'
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Unicode-Tussle
-provides:
-  Unicode::Tussle:
-    file: lib/Unicode/Tussle.pm
-    version: 1.03_05
-requires:
-  Lingua::EN::Syllable: 0
-  Lingua::JA::Romanize::Japanese: 0
-  Lingua::KO::Hangul::Util: 0
-  Lingua::KO::Romanize::Hangul: 0
-  Lingua::ZH::Romanize::Pinyin: 0
-  Unicode::GCString: 0
-  Unicode::Unihan: 0
-  perl: v5.10.0
+no_index:
+  directory:
+    - t
+    - inc
 resources:
-  license: http://dev.perl.org/licenses/
-version: 1.03_05
+  repository: https://github.com/briandfoy/Unicode-Tussle.git
+version: 1.04
