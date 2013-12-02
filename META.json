@@ -1,10 +1,10 @@
 {
    "abstract" : "Tom's Unicode Scripts So Life is Easier",
    "author" : [
-      "Tom Christiansen <tom@perl.com>"
+      "brian d foy <bdfoy@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -13,19 +13,41 @@
       "version" : "2"
    },
    "name" : "Unicode-Tussle",
-   "no_index" : {
-      "directory" : [
-         "t",
-         "inc"
-      ]
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Lingua::EN::Syllable" : 0,
+            "Lingua::JA::Romanize::Japanese" : 0,
+            "Lingua::KO::Hangul::Util" : 0,
+            "Lingua::KO::Romanize::Hangul" : 0,
+            "Lingua::ZH::Romanize::Pinyin" : 0,
+            "Unicode::GCString" : 0,
+            "Unicode::Unihan" : 0,
+            "perl" : "v5.10.0"
+         }
+      }
+   },
+   "provides" : {
+      "Unicode::Tussle" : {
+         "file" : "lib/Unicode/Tussle.pm",
+         "version" : "1.05"
+      }
    },
    "release_status" : "stable",
    "resources" : {
-      "repository" : {
-         "type" : "git",
-         "url" : "https://github.com/briandfoy/Unicode-Tussle.git",
-         "web" : "https://github.com/briandfoy/Unicode-Tussle"
-      }
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
    },
-   "version" : "1.04"
+   "version" : "1.05"
 }
