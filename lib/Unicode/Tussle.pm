@@ -1,7 +1,7 @@
 package Unicode::Tussle;
 use vars qw( $VERSION );
 
-$VERSION = '1.05';
+$VERSION = '1.06';
 
 =encoding utf8
 
@@ -86,7 +86,7 @@ http://users.teilar.gr/~g1951d/
         uniwide, uninarrow - reversable filters for converting to FULLWIDTH equivs
 
     TEST AND DEMO PROGRAMS:
-        macroman - show mapping between MacRoman and Uncidoe
+        macroman - show mapping between MacRoman and Unicode
         byte2uni - early prototype of general-purpose version of the macroman
             DEMO: byte2uni -a -ecp1252
         es-sort - how to do fancy UCA sorts, using Iberian city-names
@@ -1865,7 +1865,7 @@ it.
 
 =head1 COPYRIGHT
 
-Copyright 2011-2013, Tom Christiansen.
+Copyright 2011-2014, Tom Christiansen.
 
 =head1 LICENSE
 

@@ -4,7 +4,7 @@
       "brian d foy <bdfoy@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Module::Build" : 0
+            "Module::Build" : "0"
          }
       },
       "configure" : {
@@ -26,13 +26,13 @@
       },
       "runtime" : {
          "requires" : {
-            "Lingua::EN::Syllable" : 0,
-            "Lingua::JA::Romanize::Japanese" : 0,
-            "Lingua::KO::Hangul::Util" : 0,
-            "Lingua::KO::Romanize::Hangul" : 0,
-            "Lingua::ZH::Romanize::Pinyin" : 0,
-            "Unicode::GCString" : 0,
-            "Unicode::Unihan" : 0,
+            "Lingua::EN::Syllable" : "0",
+            "Lingua::JA::Romanize::Japanese" : "0",
+            "Lingua::KO::Hangul::Util" : "0",
+            "Lingua::KO::Romanize::Hangul" : "0",
+            "Lingua::ZH::Romanize::Pinyin" : "0",
+            "Unicode::GCString" : "0",
+            "Unicode::Unihan" : "0",
             "perl" : "v5.10.0"
          }
       }
@@ -40,7 +40,7 @@
    "provides" : {
       "Unicode::Tussle" : {
          "file" : "lib/Unicode/Tussle.pm",
-         "version" : "1.05"
+         "version" : "1.06"
       }
    },
    "release_status" : "stable",
@@ -49,5 +49,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.05"
+   "version" : "1.06"
 }
