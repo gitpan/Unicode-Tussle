@@ -4,7 +4,7 @@
       "brian d foy <bdfoy@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Module::Build version 0.4203",
    "license" : [
       "perl_5"
    ],
@@ -21,7 +21,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.42"
          }
       },
       "runtime" : {
@@ -40,7 +40,7 @@
    "provides" : {
       "Unicode::Tussle" : {
          "file" : "lib/Unicode/Tussle.pm",
-         "version" : "1.06"
+         "version" : "1.07"
       }
    },
    "release_status" : "stable",
@@ -49,5 +49,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.06"
+   "version" : "1.07"
 }
